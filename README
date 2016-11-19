@@ -1,4 +1,4 @@
-Requires the neurtheor package (see my repo neurtheor)
+Requires the neurtheor package (see my repo neurtheor [ https://github.com/adityagilra/neurtheor ])
 
 `python lin_response_comparisons_v2.py`
 `python lin_response_comparisons.py` (older - doesn't use neurtheor module, simpler plots)
