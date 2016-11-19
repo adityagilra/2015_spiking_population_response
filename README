@@ -1,0 +1,10 @@
+Requires the neurtheor package (see my repo neurtheor)
+
+`python lin_response_comparisons_v2.py` \\
+`python lin_response_comparisons.py` (older - doesn't use neurtheor module, simpler plots) \\
+
+Calculate and plot response of a population of spiking neurons (spike response model) to a constant and a sinusoid riding on top.\\
+Population responses calculated via 3 different methods are compared:
+1) via simulation (brian2)
+2) via linear response theory using the integral approach (do_integral_approach=True) explained in Gerstner et al book [http://neuronaldynamics.epfl.ch/].\\
+3) for a LIF neuron, you can also calculate the population response using linear response theory using the differential approach (do_differential_approach=True) from Richardson 2007.
